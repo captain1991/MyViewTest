@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#FFFFFF</color>
+    <color name="titlebar_bg_color">#ff33b5e5</color>
+    <color name="titlebar_bg_color2">#0992C4</color>
+    <color name="color_black">#000000</color>
+    <color name="color_red">#BF0F0B</color>
+    <color name="color_gray_line">@color/gengduo_divider_color</color>
+    <color name="color_gray">#E5E0E0</color>
+    <color name="main_page_tab_select_text_color">#3894D7</color>
+    <color name="main_page_tab_normal_text_color">#4a4a4a</color>
+    <color name="default_image_background">#FFDEDEDE</color>
+    <color name="main_gv_text_color">#808080</color>
+    <color name="main_gv_bg_color">#BCBABA</color>
+    <color name="listview_divider_color">@color/gengduo_divider_color</color>
+    <color name="pull_to_refresh_text_color">#4a4a4a</color>
+    <color name="gengduo_divider_color">#EBEBEB</color>
+    <color name="gengduo_item_pressed_color">#DFDCDC</color>
+    <color name="gengduo_item_text_color">#3c3c3c</color>
+    <color name="licai_item_text_color1">#181818</color>
+    <color name="licai_item_red_color">#c3130f</color>
+
+    <color name="shouye_2item_heigerdivider_color">#dadada</color>
+    <color name="shouye_2item_divider_color">#B0B0B0</color>
+    <color name="loginout_red_bg_normal">#ED4D4D</color>
+    <color name="loginout_red_bg_pressed">#EF1A1A</color>
+    <color name="zc_zzc_value_text_color">#FF6C02</color>
+    <color name="myyq_value_text_color">#FE9601</color>
+
+    <color name="cz_text_color">#D55404</color>
+
+    <color name="zc_top_solid_color">#5fb1fa</color>
+    <color name="zc_top_start_color">#1780dc</color>
+    <color name="zc_top_center_color">#5baff8</color>
+    <color name="zc_top_end_color">#5fb1fa</color>
+    <color name="transparent_background">#4000</color>
+</resources>

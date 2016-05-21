@@ -1,0 +1,83 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="textfield_size_12">9sp</dimen>
+    <dimen name="textfield_size_13">9.75sp</dimen>
+    <dimen name="textfield_size_14">10.5sp</dimen>
+    <dimen name="textfield_size_15">11.25sp</dimen>
+    <dimen name="textfield_size_16">12sp</dimen>
+    <dimen name="textfield_size_17">12.75sp</dimen>
+    <dimen name="textfield_size_18">13.5sp</dimen>
+    <dimen name="textfield_size_19">14.25sp</dimen>
+    <dimen name="textfield_size_20">15sp</dimen>
+
+    <dimen name="main_bottom_iv_size">22.5dp</dimen>
+    <dimen name="vp_dot_panel_paddingbottom">6dp</dimen>
+
+
+    <!--需要适配不同的尺寸  start-->
+    <dimen name="main_gv_img_size">20dp</dimen>
+    <dimen name="main_gv_text_size">10.5sp</dimen>
+    <dimen name="pull_to_refresh_text_size">10.5sp</dimen>
+    <dimen name="pull_to_refresh_image_width">11.25dp</dimen>
+    <dimen name="pull_to_refresh_image_height">18dp</dimen>
+    <dimen name="pull_to_refresh_panel_padding">11.5dp</dimen>
+    <dimen name="licai_item_part2_left_margin">7.5dp</dimen>
+
+
+    <!--理财item字体尺寸 可按  x/7比例增大；-->
+    <dimen name="licai_item_text_size1">12sp</dimen>
+    <dimen name="licai_item_text_size2">10.5sp</dimen>
+    <dimen name="licai_item_text_size3">22.5sp</dimen>
+    <dimen name="licai_item_text_size4">11.25sp</dimen>
+    <dimen name="licai_item_text_size5">15sp</dimen>
+    <dimen name="iv_clock_size">15dp</dimen>
+
+<!-- 分割线 -->
+    <dimen name="grzx_item_text_size">12dp</dimen>
+    <dimen name="login_welcome_text_size">15sp</dimen>
+    <dimen name="login_welcome_logo_size">72dp</dimen>
+    <dimen name="licai_item_top_right_iv_size">36dp</dimen>
+    <dimen name="licai_item_top_left_iv_size">45dp</dimen>
+    <dimen name="zh_iv_anndy_size">30dp</dimen>
+    <dimen name="zc_zzc_text_size">14sp</dimen>
+    <dimen name="zc_zzc_value_text_size">18sp</dimen>
+    <dimen name="zc_zzc_value_text_size2">14sp</dimen>
+    <dimen name="cz_title_text_size">14sp</dimen>
+
+    <dimen name="myyq_value_text_size">15sp</dimen>
+    <dimen name="titlebar_height">39dp</dimen>
+
+    <dimen name="licai_cpxq_xmxx_text_size_large">14sp</dimen>
+    <dimen name="toggle_button_size">70dp</dimen>
+    <dimen name="emptyheight">228dp</dimen>
+
+    <!--以下字体尺寸需要适配不同的屏幕，-->
+
+    <dimen name="text_size_12sp">9sp</dimen>
+    <dimen name="text_size_13sp">9.75sp</dimen>
+    <dimen name="text_size_14sp">10.5sp</dimen>
+    <dimen name="text_size_15sp">11.25sp</dimen>
+    <dimen name="text_size_16sp">12sp</dimen>
+    <dimen name="text_size_17sp">12.75sp</dimen>
+    <dimen name="text_size_18sp">13.5sp</dimen>
+    <dimen name="text_size_19sp">14.25sp</dimen>
+    <dimen name="text_size_20sp">15sp</dimen>
+
+
+    <dimen name="text_size_12dp">9dp</dimen>
+    <dimen name="text_size_13dp">9.75dp</dimen>
+    <dimen name="text_size_14dp">10.5dp</dimen>
+    <dimen name="text_size_15dp">11.25dp</dimen>
+    <dimen name="text_size_16dp">12dp</dimen>
+    <dimen name="text_size_17dp">12.75dp</dimen>
+    <dimen name="text_size_18dp">13.25dp</dimen>
+    <dimen name="text_size_19dp">14.25dp</dimen>
+    <dimen name="text_size_20dp">15dp</dimen>
+
+    <!--end-->
+
+</resources>
