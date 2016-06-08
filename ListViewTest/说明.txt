@@ -1,0 +1,25 @@
+进程长存策略 验证码 颜色填充 recycle LruCache图片缓存策略 拼图游戏  SlidingMenu自定义 MatrixImageView
+
+
+Bitmap.creatBitmap() 可以创建新的位图
+
+collections排序：Collections.sort(List<Object> , new Comparator(){
+                        @Override
+                    public int compare(Object lhs, Object rhs) {
+
+                        return 1;
+                    }
+                   });
+说明；
+   public int compare(Object obj1, Object obj2) {
+   这个方法的规则是这样的：
+   如果这个方法的返回值>0则代表obj1排在obj2前边
+   <0则代表obj1排在obj2后边
+   =0则代表顺序不变
+
+利用RelativeLayout的addRule;
+
+在myslidingmenu
+onMeasure 和 onLayout运行两次
+第一次onLayout中的change为true 第二次为false；
+

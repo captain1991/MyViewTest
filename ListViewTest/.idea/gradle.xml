@@ -10,7 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/backgroundservice" />
+            <option value="$PROJECT_DIR$/dGoodUI" />
             <option value="$PROJECT_DIR$/getapppic" />
+            <option value="$PROJECT_DIR$/slidingmenu" />
+            <option value="$PROJECT_DIR$/smsregister" />
+            <option value="$PROJECT_DIR$/spimage" />
           </set>
         </option>
       </GradleProjectSettings>

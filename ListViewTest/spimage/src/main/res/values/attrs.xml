@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XfdImg" >
+        <attr name="type" >
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+        <attr name="roundradiu" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="PinTuGame">
+        <attr name="column" format="integer"/>
+    </declare-styleable>
+
+</resources>

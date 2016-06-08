@@ -1,1 +1,2 @@
-include ':app', ':getapppic'
+include ':app', ':getapppic', ':smsregister', ':backgroundservice', ':spimage', ':slidingmenu'
+include ':dGoodUI'

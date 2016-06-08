@@ -17,6 +17,8 @@ import android.widget.ImageView;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 
 /**
  * Created by yxd on 2016/5/17.
@@ -27,8 +29,11 @@ public class GridViewAdapter extends BaseAdapter implements AbsListView.OnScroll
     Context context;
     List<File> files;
     List<MyTask> myTaskList;
+    ScheduledExecutorService sse;
+    int showPosition;
 
     public GridViewAdapter(Context context, GridView gridView) {
+        sse = (ScheduledExecutorService) Executors.newScheduledThreadPool(10);
         int maxSize = (int) Runtime.getRuntime().maxMemory();
 
         memeryCache = new LruCache<String, Bitmap>(maxSize / 6) {
@@ -65,6 +70,7 @@ public class GridViewAdapter extends BaseAdapter implements AbsListView.OnScroll
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        showPosition = position;
         ViewHolder holder = null;
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.layout, null);
@@ -121,11 +127,13 @@ public class GridViewAdapter extends BaseAdapter implements AbsListView.OnScroll
 
     private void loadImageToCache() {
         myTaskList = new ArrayList<MyTask>();
-        for (File file : files) {
-            Log.e("loadimaget","loadimaget");
-            MyTask loadTask = new MyTask();
-            loadTask.execute(file);
-            myTaskList.add(loadTask);
+        for (int i=0;i<files.size();i++) {
+            Log.e("loadimaget", "loadimaget");
+            if (i>showPosition-10&&i<=showPosition) {
+                MyTask loadTask = new MyTask();
+                loadTask.execute(files.get(i));
+                myTaskList.add(loadTask);
+            }
         }
     }
 
